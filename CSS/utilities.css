@@ -1,5 +1,6 @@
 :root{
     --secondary-color :#1c3fa8;
+    --dark-color:#002240;
 }
 .container{
     padding: 0 40px;
@@ -52,6 +53,15 @@
     border: 1px #fff solid;
 }
 
+.btn-dark,
+.bg-dark{
+    background-color: var(--dark-color);
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
 .btn:hover{
     transform: scale(0.98);
 }
@@ -63,6 +73,30 @@
 .secondary-text{
     color: var(--secondary-color);
 }
+
+
+/*text sizes*/
+
+.lead{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
+}
+
 
 
 /*margin*/
