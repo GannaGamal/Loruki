@@ -56,6 +56,7 @@
 .btn-dark,
 .bg-dark{
     background-color: var(--dark-color);
+    color: #fff;
 }
 
 .bg-primary{
@@ -74,6 +75,15 @@
     color: var(--secondary-color);
 }
 
+
+.btn-dark a,
+.bg-dark a,
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a{
+    color: #fff;
+}
 
 /*text sizes*/
 

@@ -186,11 +186,11 @@ p{
     flex-wrap: wrap;
 }
 
-.languages.card.h4{
+.languages .card.h4{
     font-size: 20px;
     margin-bottom: 10px;
 }
-.languages.card:hover{
-    transform: translateY(-15px);
 
+.languages .card:hover{
+    transform: translateY(-15px);
 }
