@@ -133,6 +133,7 @@ p{
 }
 
 /*stats*/
+
 .stats {
     padding-top: 180px;
 }
@@ -149,4 +150,15 @@ p{
 .stats .grid p{
     font-size: 20px;
     font-weight: bold;
+}
+
+/*cli*/
+
+.cli .grid-3 {
+    grid-template-rows: repeat(2,1fr);
+}
+
+.cli .grid-3 > *:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
