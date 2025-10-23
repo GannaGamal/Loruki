@@ -86,7 +86,7 @@ p{
 
 .showcase .grid{
     overflow: visible;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 3fr 2fr;
     gap: 30px;
 }
 
@@ -193,4 +193,65 @@ p{
 
 .languages .card:hover{
     transform: translateY(-15px);
+}
+
+
+
+/*media queries*/
+
+
+/*tablet*/
+@media(max-width: 768px){
+
+    .grid,
+    .showcase .grid,
+    .cli .grid,
+    .cloud .grid{
+        grid-template-columns: 1fr;
+        grid-row-columns: 1fr;
+    }
+
+    .showcase {
+        height: auto;
+    }
+    .showcase-text {
+        text-align: center;
+        margin-top: 40px;
+        padding: 60px;
+    }
+
+    .showcase-form{
+        width: 400px;
+        justify-self: center;
+    }
+
+    .cli .grid-3 > *:first-child {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+}
+
+/*mobile*/
+
+@media(max-width: 500px){
+
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+        
+    .showcase-form{
+        width: 200px;
+        justify-self: center;
+    }
+
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0,0, 0, 0.1);
+    }
 }
