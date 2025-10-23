@@ -97,6 +97,11 @@ p{
     gap: 30px;
 }
 
+.showcase-text {
+    animation: MoveFromLeft 1s ease-in;
+}
+
+
 .showcase-form { 
     position: relative;
     top : 60px;
@@ -105,6 +110,7 @@ p{
     padding: 40px;
     z-index: 100;
     justify-self: flex-end;
+    animation: MoveFromRight 1s ease-in;
 }
 
 .showcase-form .form-control{
@@ -264,6 +270,30 @@ p{
 .footer .social a {
     margin: 0 10px;
 }
+
+
+/* animation */
+
+
+@keyframes MoveFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes MoveFromRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
 
 
 /*media queries*/
