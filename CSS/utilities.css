@@ -1,6 +1,7 @@
 :root{
     --secondary-color :#1c3fa8;
     --dark-color:#002240;
+    --light-color:#f4f4f4;
 }
 .container{
     padding: 0 40px;
@@ -61,6 +62,12 @@
 
 .bg-primary{
     background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-light{
+    background-color: var(--light-color);
+    color: #333;
 }
 
 .btn:hover{
