@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
-/* basic styles */
+/* basic style */
 * {
     padding: 0;
     margin: 0;
@@ -244,7 +244,7 @@ p{
     .navbar .flex{
         flex-direction: column;
     }
-        
+
     .showcase-form{
         width: 200px;
         justify-self: center;
