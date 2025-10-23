@@ -278,9 +278,9 @@ p{
     .cloud .grid,
     .features-main .grid,
     .features-head .grid,
-    .features-sub-head .grid {
+    .features-sub-head .grid,
+    .docs-main .grid {
         grid-template-columns: 1fr;
-        grid-row-columns: 1fr;
     }
 
     .showcase {
@@ -294,13 +294,15 @@ p{
     }
 
     .features-head,
-    .features-sub-head {
+    .features-sub-head,
+    .docs-head {
         text-align: center;
         padding: 50px;
     }
 
     .features-head img,
-    .features-sub-head img{
+    .features-sub-head img,
+    .docs-head img{
       justify-self: center;
     }
 
@@ -340,7 +342,7 @@ p{
     }
 
     .showcase-form{
-        width: 200px;
+        width: 250px;
         justify-self: center;
     }
 
